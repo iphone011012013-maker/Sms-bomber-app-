@@ -16,8 +16,7 @@ document.getElementById('smsForm').addEventListener('submit', function(event) {
     }
 
     // رابط الدالة السحابية (سنحصل عليه في الخطوة التالية)
-    const apiUrl = 'ضع_رابط_الدالة_السحابية_هنا';
-
+    const apiUrl = '/api/send';
     // تجهيز الواجهة للبدء
     statusDiv.textContent = '⏳ جاري الإرسال... برجاء الانتظار.';
     statusDiv.style.color = '#e0e0e0';
